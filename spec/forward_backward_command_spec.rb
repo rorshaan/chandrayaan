@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
-require './forward_backward_command'
-require './lunar_command_receiver'
+require './main'
 
 RSpec.describe ForwardBackwardCommand do
   let(:receiver) { LunarCommandReceiver.new }

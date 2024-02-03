@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
-require './up_down_command'
-require './lunar_command_receiver'
+require './main'
 
 RSpec.describe UpDownCommand do
   let(:receiver) { LunarCommandReceiver.new }

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './lunar_command_receiver'
+require './main'
 
 RSpec.describe LunarCommandReceiver do
   let(:receiver) { LunarCommandReceiver.new }

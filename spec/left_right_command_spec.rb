@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require './left_right_command'
 require './main'
 
 RSpec.describe LeftRightCommand do
